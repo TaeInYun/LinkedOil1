@@ -9,12 +9,12 @@ import javax.servlet.annotation.WebListener;
  *
  */
 @WebListener
-public class uploadCSV implements ServletContextListener {
+public class uploadCsvListener implements ServletContextListener {
 
     /**
      * Default constructor. 
      */
-    public uploadCSV() {
+    public uploadCsvListener() {
         // TODO Auto-generated constructor stub
     }
 
