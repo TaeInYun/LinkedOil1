@@ -1,7 +1,7 @@
 package com.linkedoil.dao;
 
 public class ReadCSV {
-	public ArrayList<GasStationVO> v(){
+	public ArrayList<GasStationVO> v(String filename){
 		 ArrayList<GasStationVO> ret = new ArrayList<GasStationVO>();
 			BufferedReader br = null;
 			
