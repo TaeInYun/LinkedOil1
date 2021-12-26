@@ -1,4 +1,4 @@
-package com.sist.vo;
+package com.linkedoil.vo;
 
 public class MemberVO {
 	private int no;
@@ -48,6 +48,4 @@ public class MemberVO {
 	public void setNickname(String nickname) {
 		this.nickname = nickname;
 	}
-	
-	
-}
+}	
