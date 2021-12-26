@@ -95,12 +95,12 @@ public class ReadEvStation2 {
 
                         //insert메소드 호출
                         EvstationDAO dao = new EvstationDAO();
-                      /*  int re =   dao.insertEvstation(e);
+                       int re =   dao.insertEvstation(e);
                     	if(re==1) {
             				System.out.println("레코드 생성 성공");
             			}else {
             				System.out.println("레코드 생성 실패");
-            			}*/
+            			}
                     	
                     /*	 //충전기VO
     	                EvChargerVO evcharger = new EvChargerVO();

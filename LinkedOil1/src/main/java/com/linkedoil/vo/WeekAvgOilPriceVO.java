@@ -8,6 +8,7 @@ public class WeekAvgOilPriceVO {
 		private double premium_gas_price;
 		private double gas_price;
 		private double diesel_price;
+		private double lpg_price;
 		
 		public WeekAvgOilPriceVO() {
 			super();
@@ -20,6 +21,15 @@ public class WeekAvgOilPriceVO {
 			this.premium_gas_price = premium_gas_price;
 			this.gas_price = gas_price;
 			this.diesel_price = diesel_price;
+		}
+		
+		
+		public double getLpg_price() {
+			return lpg_price;
+		}
+
+		public void setLpg_price(double lpg_price) {
+			this.lpg_price = lpg_price;
 		}
 
 		public String getWeek() {
