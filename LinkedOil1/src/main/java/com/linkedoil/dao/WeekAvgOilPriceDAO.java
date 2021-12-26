@@ -10,12 +10,13 @@ import com.linkedoil.vo.WeekAvgOilPriceVO;
 public class WeekAvgOilPriceDAO {
 	
 	public static void main(String[] args) {
+		/*
 		WeekAvgOilPriceDAO dao = new WeekAvgOilPriceDAO();
-		//int premiumGas = dao.insertWeekAvgPremiumGas();
-		//int gas = dao.insertWeekAvgGas();
-		//int diesel = dao.insertWeekAvgDiesel();
-		//int lpg = dao.insertWeekAvgLpg();
-		
+		int premiumGas = dao.insertWeekAvgPremiumGas();
+		int gas = dao.insertWeekAvgGas();
+		int diesel = dao.insertWeekAvgDiesel();
+		int lpg = dao.insertWeekAvgLpg();
+		*/
 		//System.out.println("삽입한 고급휘발유 레코드 수:" + premiumGas);
 		//System.out.println("삽입한 휘발유 레코드 수:" + gas);
 		//System.out.println("삽입한 경유 레코드 수:" + diesel);
@@ -23,6 +24,9 @@ public class WeekAvgOilPriceDAO {
 	}
 	
 	//메소드
+	
+	//레코드가져오기
+	
 	
 	//고급휘발유 주간유가평균 데이터 삽입
 	public int insertWeekAvgPremiumGas(){
