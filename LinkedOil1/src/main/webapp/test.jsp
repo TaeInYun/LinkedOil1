@@ -12,12 +12,7 @@
 </head>
 <body>
 <%
-CsvDAO dao = new CsvDAO();
-	ArrayList<WeekAvgOilPriceVO> list = dao.listCsv("주간평균판매가격(고급휘발유,휘발유,경유)");
 	
-	for(WeekAvgOilPriceVO w : list){
-		System.out.println(w.getPremium_gas_price());
-	}
 %>
 </body>
 </html>

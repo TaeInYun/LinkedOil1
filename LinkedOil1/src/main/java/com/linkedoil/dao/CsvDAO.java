@@ -12,7 +12,7 @@ import com.linkedoil.vo.WeekAvgOilPriceVO;
 
 public class CsvDAO {
 	
-	public ArrayList<WeekAvgOilPriceVO> listCsv(String filename){
+	public ArrayList<WeekAvgOilPriceVO> loadCsv(String filename){
 		 ArrayList<WeekAvgOilPriceVO> list = new ArrayList<WeekAvgOilPriceVO>();
 			BufferedReader data = null;
 			try {
