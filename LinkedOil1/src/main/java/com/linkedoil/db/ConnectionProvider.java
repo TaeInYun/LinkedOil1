@@ -10,8 +10,8 @@ public class ConnectionProvider {
 		Connection conn = null;
 		try {
 			String url = "jdbc:oracle:thin:@localhost:1521:XE";
-			String user = "";
-			String password = "";
+			String user = "c##test";
+			String password = "test";
 			Class.forName("oracle.jdbc.driver.OracleDriver");
 			conn = DriverManager.getConnection(url, user, password);
 		}catch (Exception e) {
