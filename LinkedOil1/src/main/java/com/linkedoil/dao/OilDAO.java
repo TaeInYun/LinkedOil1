@@ -7,6 +7,7 @@ import com.linkedoil.db.ConnectionProvider;
 
 public class OilDAO {
 	
+	//오일테이블 레코드 삽입
 	public static void main(String[] args) {
 		OilDAO dao = new OilDAO();
 		int re = dao.insertOil();

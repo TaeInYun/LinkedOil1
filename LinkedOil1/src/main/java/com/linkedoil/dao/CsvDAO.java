@@ -67,10 +67,10 @@ public class CsvDAO {
 				
 				String week = tmpList.get(0);
 				double lpg = Double.parseDouble(tmpList.get(1));
-				
+			
 				WeekAvgOilPriceVO vo = new WeekAvgOilPriceVO();
 				vo.setWeek(week);
-				vo.getLpg_price();
+				vo.setLpg_price(lpg);
 				
 				list.add(vo);
 			}
